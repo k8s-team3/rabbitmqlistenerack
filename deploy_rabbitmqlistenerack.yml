@@ -29,6 +29,6 @@ spec:
         - name: RABBITMQHOST
           value: "amqp://guest:guest@k8steam3rab-rabbitmq.default.svc.cluster.local:5672"
         - name: PARTITIONKEY
-          value: "1" 
-        - name: PROCESSENDPOINT 
-          value: "http://fulfillorder.[namespace].svc.cluster.local:8080/v1/order/"
+          value: "0"
+        - name: PROCESSENDPOINT
+          value: "http://fulfillorder.default.svc.cluster.local:8080/v1/order/"
